@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D533BC0723C9EA5A0050EFD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BC0623C9EA5A0050EFD0 /* AppDelegate.swift */; };
+		D533BC0923C9EA5A0050EFD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BC0823C9EA5A0050EFD0 /* SceneDelegate.swift */; };
+		D533BC0B23C9EA5A0050EFD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BC0A23C9EA5A0050EFD0 /* ContentView.swift */; };
+		D533BC0D23C9EA5E0050EFD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D533BC0C23C9EA5E0050EFD0 /* Assets.xcassets */; };
+		D533BC1023C9EA5E0050EFD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D533BC0F23C9EA5E0050EFD0 /* Preview Assets.xcassets */; };
+		D533BC1323C9EA5E0050EFD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D533BC1123C9EA5E0050EFD0 /* LaunchScreen.storyboard */; };
+		D533BC1E23C9EA5E0050EFD0 /* HappnMeteoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BC1D23C9EA5E0050EFD0 /* HappnMeteoTests.swift */; };
+		D533BC2923C9EA5E0050EFD0 /* HappnMeteoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BC2823C9EA5E0050EFD0 /* HappnMeteoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D533BC1A23C9EA5E0050EFD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D533BBFB23C9EA5A0050EFD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D533BC0223C9EA5A0050EFD0;
+			remoteInfo = HappnMeteo;
+		};
+		D533BC2523C9EA5E0050EFD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D533BBFB23C9EA5A0050EFD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D533BC0223C9EA5A0050EFD0;
+			remoteInfo = HappnMeteo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D533BC0323C9EA5A0050EFD0 /* HappnMeteo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappnMeteo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D533BC0623C9EA5A0050EFD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D533BC0823C9EA5A0050EFD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D533BC0A23C9EA5A0050EFD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D533BC0C23C9EA5E0050EFD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D533BC0F23C9EA5E0050EFD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D533BC1223C9EA5E0050EFD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D533BC1423C9EA5E0050EFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D533BC1923C9EA5E0050EFD0 /* HappnMeteoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappnMeteoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D533BC1D23C9EA5E0050EFD0 /* HappnMeteoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappnMeteoTests.swift; sourceTree = "<group>"; };
+		D533BC1F23C9EA5E0050EFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D533BC2423C9EA5E0050EFD0 /* HappnMeteoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappnMeteoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D533BC2823C9EA5E0050EFD0 /* HappnMeteoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappnMeteoUITests.swift; sourceTree = "<group>"; };
+		D533BC2A23C9EA5E0050EFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D533BC0023C9EA5A0050EFD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533BC1623C9EA5E0050EFD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533BC2123C9EA5E0050EFD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D533BBFA23C9EA5A0050EFD0 = {
+			isa = PBXGroup;
+			children = (
+				D533BC0523C9EA5A0050EFD0 /* HappnMeteo */,
+				D533BC1C23C9EA5E0050EFD0 /* HappnMeteoTests */,
+				D533BC2723C9EA5E0050EFD0 /* HappnMeteoUITests */,
+				D533BC0423C9EA5A0050EFD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D533BC0423C9EA5A0050EFD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D533BC0323C9EA5A0050EFD0 /* HappnMeteo.app */,
+				D533BC1923C9EA5E0050EFD0 /* HappnMeteoTests.xctest */,
+				D533BC2423C9EA5E0050EFD0 /* HappnMeteoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D533BC0523C9EA5A0050EFD0 /* HappnMeteo */ = {
+			isa = PBXGroup;
+			children = (
+				D533BC0623C9EA5A0050EFD0 /* AppDelegate.swift */,
+				D533BC0823C9EA5A0050EFD0 /* SceneDelegate.swift */,
+				D533BC0A23C9EA5A0050EFD0 /* ContentView.swift */,
+				D533BC0C23C9EA5E0050EFD0 /* Assets.xcassets */,
+				D533BC1123C9EA5E0050EFD0 /* LaunchScreen.storyboard */,
+				D533BC1423C9EA5E0050EFD0 /* Info.plist */,
+				D533BC0E23C9EA5E0050EFD0 /* Preview Content */,
+			);
+			path = HappnMeteo;
+			sourceTree = "<group>";
+		};
+		D533BC0E23C9EA5E0050EFD0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D533BC0F23C9EA5E0050EFD0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D533BC1C23C9EA5E0050EFD0 /* HappnMeteoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D533BC1D23C9EA5E0050EFD0 /* HappnMeteoTests.swift */,
+				D533BC1F23C9EA5E0050EFD0 /* Info.plist */,
+			);
+			path = HappnMeteoTests;
+			sourceTree = "<group>";
+		};
+		D533BC2723C9EA5E0050EFD0 /* HappnMeteoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D533BC2823C9EA5E0050EFD0 /* HappnMeteoUITests.swift */,
+				D533BC2A23C9EA5E0050EFD0 /* Info.plist */,
+			);
+			path = HappnMeteoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D533BC0223C9EA5A0050EFD0 /* HappnMeteo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D533BC2D23C9EA5E0050EFD0 /* Build configuration list for PBXNativeTarget "HappnMeteo" */;
+			buildPhases = (
+				D533BBFF23C9EA5A0050EFD0 /* Sources */,
+				D533BC0023C9EA5A0050EFD0 /* Frameworks */,
+				D533BC0123C9EA5A0050EFD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappnMeteo;
+			productName = HappnMeteo;
+			productReference = D533BC0323C9EA5A0050EFD0 /* HappnMeteo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D533BC1823C9EA5E0050EFD0 /* HappnMeteoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D533BC3023C9EA5E0050EFD0 /* Build configuration list for PBXNativeTarget "HappnMeteoTests" */;
+			buildPhases = (
+				D533BC1523C9EA5E0050EFD0 /* Sources */,
+				D533BC1623C9EA5E0050EFD0 /* Frameworks */,
+				D533BC1723C9EA5E0050EFD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D533BC1B23C9EA5E0050EFD0 /* PBXTargetDependency */,
+			);
+			name = HappnMeteoTests;
+			productName = HappnMeteoTests;
+			productReference = D533BC1923C9EA5E0050EFD0 /* HappnMeteoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D533BC2323C9EA5E0050EFD0 /* HappnMeteoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D533BC3323C9EA5E0050EFD0 /* Build configuration list for PBXNativeTarget "HappnMeteoUITests" */;
+			buildPhases = (
+				D533BC2023C9EA5E0050EFD0 /* Sources */,
+				D533BC2123C9EA5E0050EFD0 /* Frameworks */,
+				D533BC2223C9EA5E0050EFD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D533BC2623C9EA5E0050EFD0 /* PBXTargetDependency */,
+			);
+			name = HappnMeteoUITests;
+			productName = HappnMeteoUITests;
+			productReference = D533BC2423C9EA5E0050EFD0 /* HappnMeteoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D533BBFB23C9EA5A0050EFD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "HB Media";
+				TargetAttributes = {
+					D533BC0223C9EA5A0050EFD0 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					D533BC1823C9EA5E0050EFD0 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D533BC0223C9EA5A0050EFD0;
+					};
+					D533BC2323C9EA5E0050EFD0 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D533BC0223C9EA5A0050EFD0;
+					};
+				};
+			};
+			buildConfigurationList = D533BBFE23C9EA5A0050EFD0 /* Build configuration list for PBXProject "HappnMeteo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D533BBFA23C9EA5A0050EFD0;
+			productRefGroup = D533BC0423C9EA5A0050EFD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D533BC0223C9EA5A0050EFD0 /* HappnMeteo */,
+				D533BC1823C9EA5E0050EFD0 /* HappnMeteoTests */,
+				D533BC2323C9EA5E0050EFD0 /* HappnMeteoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D533BC0123C9EA5A0050EFD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D533BC1323C9EA5E0050EFD0 /* LaunchScreen.storyboard in Resources */,
+				D533BC1023C9EA5E0050EFD0 /* Preview Assets.xcassets in Resources */,
+				D533BC0D23C9EA5E0050EFD0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533BC1723C9EA5E0050EFD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533BC2223C9EA5E0050EFD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D533BBFF23C9EA5A0050EFD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D533BC0723C9EA5A0050EFD0 /* AppDelegate.swift in Sources */,
+				D533BC0923C9EA5A0050EFD0 /* SceneDelegate.swift in Sources */,
+				D533BC0B23C9EA5A0050EFD0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533BC1523C9EA5E0050EFD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D533BC1E23C9EA5E0050EFD0 /* HappnMeteoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533BC2023C9EA5E0050EFD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D533BC2923C9EA5E0050EFD0 /* HappnMeteoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D533BC1B23C9EA5E0050EFD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D533BC0223C9EA5A0050EFD0 /* HappnMeteo */;
+			targetProxy = D533BC1A23C9EA5E0050EFD0 /* PBXContainerItemProxy */;
+		};
+		D533BC2623C9EA5E0050EFD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D533BC0223C9EA5A0050EFD0 /* HappnMeteo */;
+			targetProxy = D533BC2523C9EA5E0050EFD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D533BC1123C9EA5E0050EFD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D533BC1223C9EA5E0050EFD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D533BC2B23C9EA5E0050EFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D533BC2C23C9EA5E0050EFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D533BC2E23C9EA5E0050EFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HappnMeteo/Preview Content\"";
+				DEVELOPMENT_TEAM = BGJ98PBX6U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HappnMeteo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbmedia.happnmeteo.HappnMeteo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D533BC2F23C9EA5E0050EFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HappnMeteo/Preview Content\"";
+				DEVELOPMENT_TEAM = BGJ98PBX6U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HappnMeteo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbmedia.happnmeteo.HappnMeteo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D533BC3123C9EA5E0050EFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGJ98PBX6U;
+				INFOPLIST_FILE = HappnMeteoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbmedia.happnmeteo.HappnMeteoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappnMeteo.app/HappnMeteo";
+			};
+			name = Debug;
+		};
+		D533BC3223C9EA5E0050EFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGJ98PBX6U;
+				INFOPLIST_FILE = HappnMeteoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbmedia.happnmeteo.HappnMeteoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappnMeteo.app/HappnMeteo";
+			};
+			name = Release;
+		};
+		D533BC3423C9EA5E0050EFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGJ98PBX6U;
+				INFOPLIST_FILE = HappnMeteoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbmedia.happnmeteo.HappnMeteoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappnMeteo;
+			};
+			name = Debug;
+		};
+		D533BC3523C9EA5E0050EFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGJ98PBX6U;
+				INFOPLIST_FILE = HappnMeteoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbmedia.happnmeteo.HappnMeteoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappnMeteo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D533BBFE23C9EA5A0050EFD0 /* Build configuration list for PBXProject "HappnMeteo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D533BC2B23C9EA5E0050EFD0 /* Debug */,
+				D533BC2C23C9EA5E0050EFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D533BC2D23C9EA5E0050EFD0 /* Build configuration list for PBXNativeTarget "HappnMeteo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D533BC2E23C9EA5E0050EFD0 /* Debug */,
+				D533BC2F23C9EA5E0050EFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D533BC3023C9EA5E0050EFD0 /* Build configuration list for PBXNativeTarget "HappnMeteoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D533BC3123C9EA5E0050EFD0 /* Debug */,
+				D533BC3223C9EA5E0050EFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D533BC3323C9EA5E0050EFD0 /* Build configuration list for PBXNativeTarget "HappnMeteoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D533BC3423C9EA5E0050EFD0 /* Debug */,
+				D533BC3523C9EA5E0050EFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D533BBFB23C9EA5A0050EFD0 /* Project object */;
+}
