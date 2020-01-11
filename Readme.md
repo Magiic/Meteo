@@ -34,3 +34,4 @@ Application works in iPhone and iPad. Compatible iOS10+.
 ## Cache
 
 Application use cache to store data fetch from server et reuse after relaunching application. For test, it will just check if we have an item with a date equal to today. If yes, it will returns cache.
+This is not the best way to cache data from server but for convenience and goal of the exercise, I prefer to use Preferences.
